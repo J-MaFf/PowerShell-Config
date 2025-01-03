@@ -1,0 +1,133 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">InstallSoftware</S>
+      <S N="Version">1.0.2</S>
+      <S N="Type">Script</S>
+      <S N="Description">This script installs the following programs from winget:_x000A__x000A_7-zip_x000A_TightVNC_x000A_Adobe Acrobat Reader 64 Bit_x000A_Google Chrome_x000A_Google Drive_x000A_Dell Command Update (Universal)_x000A_PowerShell_x000A_Windows Terminal</S>
+      <S N="Author">jmaffiola</S>
+      <S N="CompanyName">J-MaFf</S>
+      <Nil N="Copyright" />
+      <DT N="PublishedDate">2024-11-20T21:20:41-06:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2024-12-02T10:19:45.4050769-06:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://github.com/J-MaFf/winget-app-setup</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSScript</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-ToEnvironmentPath</S>
+                <S>Path-ExistsInEnvironment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-ToEnvironmentPath</S>
+                <S>Path-ExistsInEnvironment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Initial version</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2/items/psscript</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="description">This script installs the following programs from winget:_x000A__x000A_7-zip_x000A_TightVNC_x000A_Adobe Acrobat Reader 64 Bit_x000A_Google Chrome_x000A_Google Drive_x000A_Dell Command Update (Universal)_x000A_PowerShell_x000A_Windows Terminal</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">Initial version</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">8</S>
+          <S N="downloadCount">21</S>
+          <S N="packageSize">4045</S>
+          <S N="published">11/20/2024 9:20:41 PM -06:00</S>
+          <S N="created">11/20/2024 9:20:41 PM -06:00</S>
+          <S N="lastUpdated">11/29/2024 7:10:00 PM -06:00</S>
+          <S N="tags">PSScript PSFunction_Add-ToEnvironmentPath PSCommand_Add-ToEnvironmentPath PSFunction_Path-ExistsInEnvironment PSCommand_Path-ExistsInEnvironment PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2024-11-29T19:10:00Z</S>
+          <S N="NormalizedVersion">1.0.2</S>
+          <S N="Authors">jmaffiola</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Script</S>
+          <S N="FileList">InstallSoftware.nuspec|InstallSoftware.ps1</S>
+          <S N="GUID">85a6c4a7-2ff2-4426-bd0d-593a33c919c9</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\jmaffiola\Documents\PowerShell\Scripts</S>
+    </MS>
+  </Obj>
+</Objs>
