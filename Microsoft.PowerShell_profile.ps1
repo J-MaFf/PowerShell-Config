@@ -1,3 +1,5 @@
+# Dependencies: oh-my-posh, 1Password CLI, winget-update.ps1, Chocolatey
+
 #  --------------------------------------------------------------Aliases------------------------------------------------------------
 # Alias for output file path
 Set-Alias -Name output -Value 'C:\Users\jmaffiola\Documents\output\output.txt'  # output -> output.txt file path
